@@ -3,3 +3,13 @@
 <div class="post-body">
 	<?= $post['body'];?>
 </div>
+
+<hr>
+
+<a href="./edit/<?= $post['slug']; ?>" class="btn btn-default">Edit</a><br><br>
+
+<?= form_open('/posts/delete/'.$post['id']) ?>
+	<input class="btn btn-danger" value="Delete Article" type="submit" onclick="return confirm('Are you sure?')">
+</form>	
+
+
