@@ -1,5 +1,5 @@
 <?php
-	class Posts extends CI_Controller{
+	class Posts extends CI_Controller{ 
 		public function index(){			
  
 			$data['title'] = 'Latest Posts';	

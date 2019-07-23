@@ -1,4 +1,4 @@
-<h2><?= $post['title'];?></h2>
+<h1><?= $post['title'];?></h1>
 <small class="post-date">Posted on: <?= $post['created_at']; ?></small><br>	
 <div class="post-body">
 	<?= $post['body'];?>
